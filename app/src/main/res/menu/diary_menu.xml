@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="save"
+        app:showAsAction="never"
+        android:id="@+id/saveToolbarButton"
+        android:icon="@mipmap/ic_launcher"
+        />
+    <item
+        android:title="Take picture"
+        android:id="@+id/image"
+
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_launcher"
+        />
+    <item
+        android:title="Back"
+        android:id="@+id/backButton"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never" />
+
+
+</menu>
